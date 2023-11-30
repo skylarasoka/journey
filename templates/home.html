@@ -16,15 +16,17 @@
   </head>
   <body>
     <div class="container">
-      <h1 class="text-center">Han Asoka's Journey</h1>
+      <h1 class="text-center mt-2 mb-4">{{owner}}'s Journey</h1>
       <img class="img-fluid" id="banner" src="{{ url_for('static', filename='banner.jpg') }}">
-      <h2 class="text-center">About Me</h2>
+      <h2 class="text-center mt-2 mb-4">About Me</h2>
       <p class="lead">Welcome to my journey of transformation, where I've navigated the diverse landscapes of island tourism, travel startups, and now, the ever-evolving realm of software development. This path, driven by a passion for problem-solving and a yearning to make a tangible impact, has led me to embrace the empowering world of Python programming.</p>
-      <h2 class="text-center">Articles</h2>
-      <p>TO_DO show the articles here</p>
-      <div>
-        <button>Contact Me</button>
-        <p>Copyright 2023, Han Asoka</p>
+      <h2 class="text-center mt-2 mb-4">Articles</h2>
+      <p>
+        {{jobs}}
+      </p>
+      <div class="text-center">
+        <button class="btn btn-primary btn-lg">Contact Me</button>
+        <p class="mt-4">Copyright 2023, Han Asoka</p>
       </div>
       </div>
     </div>
