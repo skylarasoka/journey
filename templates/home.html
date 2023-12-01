@@ -21,9 +21,22 @@
       <h2 class="text-center mt-2 mb-4">About Me</h2>
       <p class="lead">Welcome to my journey of transformation, where I've navigated the diverse landscapes of island tourism, travel startups, and now, the ever-evolving realm of software development. This path, driven by a passion for problem-solving and a yearning to make a tangible impact, has led me to embrace the empowering world of Python programming.</p>
       <h2 class="text-center mt-2 mb-4">Articles</h2>
-      <p>
-        {{jobs}}
-      </p>
+      <div>
+        {% for article in jobs %}
+          <div style="margin-bottom:16px">
+            <h4 style="color:rgb(64, 22, 20); margin-bottom:4px">{{article["title"]}}
+            </h4>
+            <div>
+              <b>Author:</b> {{article["author"]}}
+            </div>
+            {% if "content" in article %}
+            <div>
+              <b>Content:</b>{{article["content"]}}
+            </div>
+            {% endif %}
+          </div>
+        {% endfor %}
+      </div>
       <div class="text-center">
         <button class="btn btn-primary btn-lg">Contact Me</button>
         <p class="mt-4">Copyright 2023, Han Asoka</p>

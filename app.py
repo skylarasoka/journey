@@ -19,7 +19,6 @@ ARTICLES = [
     "id": 3,
     "title": "Skiing Trip",
     "author": "Bob Johnson",
-    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
   },
   {
     "id": 4,
