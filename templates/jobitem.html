@@ -1,0 +1,17 @@
+<div class="border-bottom row" style="margin-bottom:16px; padding-bottom: 8px">
+  <div class="col-10">
+    <h4 style="color:rgb(64, 22, 20); margin-bottom:4px">{{article["title"]}}
+    </h4>
+    <div>
+      <b>Author:</b> {{article["author"]}}
+    </div>
+    {% if "content" in article %}
+    <div>
+      <b>Content:</b>{{article["content"]}}
+    </div>
+    {% endif %}
+  </div>
+  <div class="col-2">
+    <button type="button" class="btn btn-outline-primary">Read</button>
+  </div>
+</div>
