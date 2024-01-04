@@ -30,7 +30,7 @@ ARTICLES = [
 
 @app.route("/")
 def hello_world():
-  return render_template('home.html', jobs=ARTICLES, owner="Han Asoka")
+  return render_template('home.html', jobs=ARTICLES, owner="Skylar Asoka")
 
 @app.route("/api/jobs")
 def list_jobs():
