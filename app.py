@@ -5,25 +5,25 @@ app = Flask(__name__)
 ARTICLES = [
   {
     "id": 1,
-    "title": "Island Tourism",
-    "author": "John Smith",
+    "title": "From Non-Tech to Tech",
+    "category": "Personal Development",
     "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
   },
   {
     "id": 2,
-    "title": "Fishing Trip",
-    "author": "Jane Doe",
+    "title": "Why I Learn to Code?",
+    "category": "Programming",
     "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
   },
   {
     "id": 3,
-    "title": "Skiing Trip",
-    "author": "Bob Johnson",
+    "title": "What Causes Monsoon?",
+    "category": "Curiosity Chronicles",
   },
   {
     "id": 4,
-    "title": "Hiking Trip",
-    "author": "Sarah Lee",
+    "title": "Lang Tengah Island",
+    "category": "Projects",
     "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
   } 
 ]
