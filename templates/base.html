@@ -16,8 +16,11 @@
     </style>
   </head>
   <body>
+    {% include "nav.html" %}
+    <img class="img-fluid" id="banner" src="{{ url_for('static', filename='banner.jpg') }}">
     {% block body %}
     
     {% endblock %}
+    {% include "footer.html" %}
   </body>
 </html>
