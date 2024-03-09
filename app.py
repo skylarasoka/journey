@@ -5,9 +5,9 @@ app = Flask(__name__)
 ARTICLES = [
   {
     "id": 1,
-    "title": "From Non-Tech to Tech",
-    "category": "Personal Development",
-    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+    "title": "Skylar Asoka",
+    "category": "Personal Website",
+    "content": "A list of websites I have created"
   },
   {
     "id": 2,
