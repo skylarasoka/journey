@@ -11,9 +11,9 @@ ARTICLES = [
   },
   {
     "id": 2,
-    "title": "Why I Learn to Code?",
-    "category": "Programming",
-    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+    "title": "Lang Tengah Island",
+    "category": "Travel Website",
+    "content": "Tours for Lang Tengah Island"
   },
   {
     "id": 3,
