@@ -17,7 +17,7 @@ ARTICLES = [
   },
   {
     "id": 3,
-    "title": "What Causes Monsoon?",
+    "title": "Merang Jetty",
     "category": "Curiosity Chronicles",
   },
   {
