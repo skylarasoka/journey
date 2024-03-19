@@ -19,6 +19,7 @@ ARTICLES = [
     "id": 3,
     "title": "Merang Jetty",
     "category": "Curiosity Chronicles",
+    "content": "Website to book boat tickets"
   },
   {
     "id": 4,
