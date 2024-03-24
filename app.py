@@ -25,7 +25,7 @@ ARTICLES = [
     "id": 4,
     "title": "Lang Tengah Island",
     "category": "Projects",
-    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+    "content": "Try & Error"
   } 
 ]
 
