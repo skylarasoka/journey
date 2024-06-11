@@ -30,7 +30,7 @@ ARTICLES = [
   {
     "id": 5,
     "title": "My Note",
-    "category": "Travel Website",
+    "category": "Create Note, Delete Note",
     "content": "Try & Error"
   } 
 ]
