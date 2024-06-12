@@ -32,6 +32,12 @@ ARTICLES = [
     "title": "My Note",
     "category": "Create Note, Delete Note",
     "content": "Try & Error"
+  },
+  {
+    "id": 6,
+    "title": "Microblog",
+    "category": "Microblog",
+    "content": "Try & Error"
   } 
 ]
 
