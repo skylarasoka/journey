@@ -37,7 +37,7 @@ ARTICLES = [
     "id": 6,
     "title": "Microblog",
     "category": "Microblog",
-    "content": "Try & Error"
+    "content": "Learning flask framework"
   } 
 ]
 
