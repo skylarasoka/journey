@@ -31,7 +31,7 @@ ARTICLES = [
     "id": 5,
     "title": "My Note",
     "category": "Create Note, Delete Note",
-    "content": "Try & Error"
+    "content": "Learning to use SQLite"
   },
   {
     "id": 6,
