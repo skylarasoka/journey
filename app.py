@@ -25,7 +25,7 @@ ARTICLES = [
     "id": 4,
     "title": "Lang Tengah Island",
     "category": "Travel Website",
-    "content": "Try & Error"
+    "content": "Tours for Lang Tengah Island with database using mysql"
   },
   {
     "id": 5,
