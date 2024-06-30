@@ -1,2 +1,2 @@
 # journey
-A personal website for Han Asoka
+A personal website for Skylar
